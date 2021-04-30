@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <tittle>Semana 11 </tittle>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+<body>
+<div id="Cuerpo">
+
+    <input id="nombre" placeholder="Escribe tu nombre" type="text"> 
+    <input id="parrafo" placeholder="Escribe tu publicación" type="text"> 
+    <button id="publicar">Publicar</button>
+
+
+</div>
+
+<div id="Contactos">
+
+<h1>Feed News</h1>
+
+
+</div>
+</body>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDJ_EequGZXvUm8peq6rA13dTNnHiwzW30",
+    authDomain: "semana11-429f0.firebaseapp.com",
+    projectId: "semana11-429f0",
+    storageBucket: "semana11-429f0.appspot.com",
+    messagingSenderId: "830460106921",
+    appId: "1:830460106921:web:13a2a2559587d9f382b1b8",
+    measurementId: "G-MBV1M0ZQL3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  const database = firebase.database();
+
+
+</script>
+
+
+<script src="js/contactar.js"></script>
+<script src="js/index.js"></script>
+
+
+
+</html>

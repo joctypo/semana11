@@ -1,0 +1,32 @@
+#Cuerpo {
+
+    display: flex;
+    flex-direction: column; 
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#Cuerpo *{
+    width: 100%;
+    margin:5px 16px 5px 16px;
+    
+}
+
+#Contactos {
+
+    display: flex;
+    flex-direction: column; 
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#Contactos *{
+    width: 100%;
+    margin:5px 16px 5px 16px;
+    
+}
+
